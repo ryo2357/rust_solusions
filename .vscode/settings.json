@@ -1,8 +1,8 @@
 {
   "rust-analyzer.linkedProjects": [
-    ".\\echor\\Cargo.toml",
-    ".\\hello\\Cargo.toml",
-    ".\\catr\\Cargo.toml",
-    ".\\headr\\Cargo.toml"
+    "./echor/Cargo.toml",
+    "./helloCargo.toml",
+    "./catr/Cargo.toml",
+    "./headr/Cargo.toml"
   ]
 }
