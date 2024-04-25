@@ -3,6 +3,8 @@
     "./echor/Cargo.toml",
     "./helloCargo.toml",
     "./catr/Cargo.toml",
-    "./headr/Cargo.toml"
+    "./headr/Cargo.toml",
+    "./wcr/Cargo.toml",
+    "./command-line-rust/05_wcr/Cargo.toml"
   ]
 }
