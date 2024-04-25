@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  app-dev:
+    # image: mcr.microsoft.com/devcontainers/rust
+    build:
+      context: .
+      dockerfile: devcontainer.dockerfile
+    volumes:
+      - ../:/workspace:cached
+    command: sleep infinity
+    # network_mode: "host"
+    environment:
+      - TZ=Asia/Tokyo
+    # env_file: devcontainer.env

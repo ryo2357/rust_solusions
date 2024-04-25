@@ -1,6 +1,11 @@
 {
   "name": "template-rust-devcontainer",
-  "image": "mcr.microsoft.com/devcontainers/rust",
+  // "image": "mcr.microsoft.com/devcontainers/rust",
+  "dockerComposeFile": [
+    "./compose.yml"
+  ],
+  "service": "app-dev",
+  "workspaceFolder": "/workspace",
   "remoteUser": "root",
   "customizations": {
     "vscode": {
@@ -19,7 +24,9 @@
         "Gruntfuggly.todo-tree",
         "streetsidesoftware.code-spell-checker",
         "GitHub.vscode-pull-request-github",
-        "yzhang.markdown-all-in-one"
+        "yzhang.markdown-all-in-one",
+        "mhutchie.git-graph",
+        "ms-azuretools.vscode-docker"
       ]
     }
   }
